@@ -9,4 +9,8 @@ public class SceneLoader : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(SceneName);
     }
+
+    public void Quit(){
+        while(true){}
+    }
 }
